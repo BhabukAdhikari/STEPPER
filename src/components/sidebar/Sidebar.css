@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&family=Ubuntu:wght@400;500;700&display=swap');
+
+.outer-cell {
+    background-color: #EFF3FC;
+    height: 100vh;
+    width: 100%;
+}
+
+.box {
+    padding: 15px;
+    background-color: white;
+    width: 70% !important;
+    border-radius: 16px;
+}
+
+.sidebar-image {
+    background: url(../../../src/assets/background-side.svg);
+    height: 35rem;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+ @media screen and (max-width: 756px) {
+    .sidebar-image {
+        background: url(../../../src/assets/bg-sidebar-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        flex-wrap: wrap;
+        border-radius: 16px;
+    }
+} 
+
+.side-bar-steps {
+    margin-top: 40px;
+}
+
+.circle-dark {
+    height: 30px;
+    width: 30px;
+    background-color: #BFDFFD;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 7px;
+    cursor: grab;
+
+}
+
+.circle-light {
+    height: 30px;
+    width: 30px;
+    border: solid whitesmoke;
+    color: #EFF3FC;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.personal-step {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(192, 191, 191);
+}
+
+.info-yours {
+    margin-left: -40px;
+    margin-top: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+ @media screen and (max-width: 756px) {
+    .info-yours {
+display: none;
+    }}
+    @media screen and (max-width: 756px) {
+        .personal-step {
+    display: none;
+        }} 
+
+.section-title {
+    color: #033777;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-text {
+    font-size: 14px;
+    color: lightslategray;
+}
+
+Form {
+    margin-top: 35px;
+    color: #012B5D;
+    font-size: 14px;
+}
+
+.span-details {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    right: 60px;
+}
+
+.btn-next-step {
+    background-color: #174A89;
+    color: white;
+    padding: 4px;
+    border-radius: 9px;
+    height: 48px;
+    width: 120px;
+    border: none;
+    position: relative;
+    right: 55px;
+    bottom: -120px;
+}
+
+.form-control {
+    width: 88% !important;
+}
+ @media screen and (max-width: 756px) {
+    .side-bar-steps {
+        display: flex;
+        flex-wrap: no-wrap;
+        margin-top:25%;
+    }} 

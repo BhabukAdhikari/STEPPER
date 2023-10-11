@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&family=Ubuntu:wght@400;500;700&display=swap');
+
+.text-area{
+border: 1px solid #7E75CA ;
+height: 80px;
+width: 85%;
+border-radius: 9px;
+background-color: #EFF3FC;
+padding-bottom:50px;
+}
+.checkbox{
+    background-color: #7E75CA;
+    border: 1px solid #7E75CA;
+    height: 75px;
+    width: 18px;
+}
+.service-ons{
+    color:  #174A89;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Ubuntu';
+}
+.games-info{
+    color: #ACB0B3;
+margin-top: -5px;
+font-size: 15px;
+}
+.end-dollar{
+        position: relative;
+        top: 30px;
+        color: #7E75CA;
+        left: 35px;
+        font-family: 'Ubuntu';
+}
+@media screen and (max-width: 756px) {
+    .end-dollar {
+        display:none;
+    }}
+input.ms-4.mt-2.checkbox {
+    height: 80px;
+    width: 17px;
+}
+p.mx-4.end-dollar.ms-4 {
+    position: relative;
+    left: 120px;
+}
+.p-add-ons{
+    position: relative;
+    top: 20px;
+    color: #ACB0B3;
+    left: 5px;
+}
+.btn-next-step-pick{
+    background-color: #174A89;
+    color: white;
+    padding: 4px;
+    border-radius: 9px;
+    height: 48px;
+    width: 120px;
+    border: none;
+    position: relative;
+    right: 56px;
+    bottom:-82px; 
+}
+.go-back-pick{
+    color:#174A89;
+    font-weight:600;
+    position: relative;
+    bottom: -70px;
+    font-size: 15px;
+}

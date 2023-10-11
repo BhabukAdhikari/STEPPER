@@ -1,0 +1,88 @@
+.monthly-box {
+    background-color: #EFF3FC;
+    width: 72%;
+    border-radius: 16px;
+    height: 180px;
+    padding: 20px;
+    margin-top: 45px;
+}
+
+@media screen and (max-width: 756px) {
+    .monthly-box {
+        margin-left: 50px;
+    }
+}
+
+.arcade-monthly {
+    color: #232365;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.amount-usd-mo {
+    color: #232365;
+    font-weight: 600;
+}
+
+.amount-usd {
+    color: #101082;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.service-storage {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.arcade-text {
+    color: rgb(79, 63, 202);
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.with-border {
+    border-bottom: 1.8px solid lightgray;
+}
+
+.service-storage {
+    color: #888884;
+}
+
+.btn-confirm {
+    background-color: rgb(141, 87, 255);
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    height: 48px;
+    width: 120px;
+    border: none;
+    margin-top: 130px;
+    margin-right: 56px;
+}
+
+.final-amount {
+    margin-right: 170px;
+    color: blue;
+    font-weight: 600;
+    font-size: 18px;
+}
+.total {
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 756px) {
+    .total {
+        position: relative;
+        left: 40px;
+    }
+}
+
+.go-back-text {
+    font-size: 15px;
+    margin-top: 130px;
+    color: #174A89;
+    font-weight: 600;
+}

@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&family=Ubuntu:wght@400;500;700&display=swap');
+
+.active-plan{
+    border: 1px solid blue !important;
+    background: #EFF3FC;
+}
+
+.plan-item {
+    border: 1px solid #ACB0B3;
+    border-radius: 10px;
+}
+@media screen and (max-width:756px){
+.plan-item {
+    border: 1px solid #ACB0B3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+} 
+}
+
+.icon-text{
+    color: #174A89;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 40px;
+}
+
+.amount {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ACB0B3;
+    position: relative;
+    top: -20px;
+}
+.monthly{
+    color:#174A89;
+    position: relative;
+    bottom:-6px; 
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right:30px;
+}
+.date-info {
+    background-color: #EFF3FC;
+    width: 100%;
+    height: 14%;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    top: 10px;
+    height: 20px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #032f53;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.yearly {
+    position: relative;
+    bottom:-6px; 
+    font-family: Ubuntu;
+    font-size: 16px;
+    color: #ACB0B3; 
+    margin-left:30px;
+}
+.btn-next-step-plan{
+    background-color: #174A89;
+    color: white;
+    padding: 4px;
+    border-radius: 9px;
+    height: 48px;
+    width: 120px;
+    border: none;
+    position: relative;
+    right: -16px;
+    bottom: -138px;
+}
+.go-back{
+    color:#174A89;
+    font-weight:600;
+    position: relative;
+    bottom: -125px;
+}
+
