@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/STEPPER/static/css/main.61682998.css",
+    "main.js": "/STEPPER/static/js/main.01f8f779.js",
+    "static/media/background-side.svg": "/STEPPER/static/media/background-side.6918153f38678372ceb1.svg",
+    "static/media/bg-sidebar-mobile.svg": "/STEPPER/static/media/bg-sidebar-mobile.ad41661b40ca0b967f3a.svg",
+    "static/media/advanced.svg": "/STEPPER/static/media/advanced.705bd10c4c1f688871d729633f0ca4ae.svg",
+    "static/media/icon-pro.svg": "/STEPPER/static/media/icon-pro.2e7e377da9c658d608624304a0f8dae6.svg",
+    "index.html": "/STEPPER/index.html",
+    "static/media/arcade.svg": "/STEPPER/static/media/arcade.a08c098289a31bb2f66d675be71565b3.svg",
+    "main.61682998.css.map": "/STEPPER/static/css/main.61682998.css.map",
+    "main.01f8f779.js.map": "/STEPPER/static/js/main.01f8f779.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61682998.css",
+    "static/js/main.01f8f779.js"
+  ]
+}
